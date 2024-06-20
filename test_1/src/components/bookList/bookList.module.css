@@ -1,0 +1,41 @@
+.bookItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.label {
+    display: inline-block;
+    width: 80px;
+    margin-right: 80px;
+}
+
+.bookInput {
+    width: 348px;
+    margin-right: 215px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.deleteButton {
+    border: 1px solid #d4380d;
+    border-radius: 2px;
+    padding: 12px 16px;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.04);
+    background: #ffffff;
+    color: #d4380d;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.deleteButton:hover {
+    background-color: #1890ff;
+}
+.separator {
+    border: none;
+    border-top: 1px solid rgba(70, 77, 87, 0.23);
+    margin: 20px 0;
+}
